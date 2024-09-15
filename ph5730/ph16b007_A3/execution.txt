@@ -1,0 +1,12 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A3\'A3.2_code'.py
+>>> plotter(1,0,.15,0,1,.005,.1,'Explicit')
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A3\'A3.2_code'.py
+>>> plotter(1.44,0,.75,0,1,.05,.1,'Crank-Nicolson')
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A3\'A3.2_code'.py
+>>> plotter(1,0,10,-5,5,.05,.1,'Implicit')
+>>> 

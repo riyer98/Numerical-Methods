@@ -1,0 +1,17 @@
+Answers to multiple choice questions.
+Trapezoidal Rule
+
+1. 	a) first
+2.	c) 20.099
+3.	c) 12.811
+4.	b) 1039.7
+5.	b) 4775
+6.	a) 162.90
+
+Simpson Rule
+1.	b) second
+2.	b) 7.8423
+3.	b) 7.8062
+4.	b) 1039.7
+5.	b) 702.039/2 + 8/3[2f(7) - f(11) + 2f(15)]
+6.	b) 362.50

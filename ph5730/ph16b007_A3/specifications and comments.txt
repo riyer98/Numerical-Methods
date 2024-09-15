@@ -1,0 +1,46 @@
+1) Explicit Method
+	x range = [0,1]
+	t range = [0,0.15]
+	t steps = 30
+	delt	= 0.005
+	delx	= 0.1
+	D	= 1
+	Boundary condition: u(0,t) = u(1,t) = 0 (Dirichlet)
+	Initial condition: u(x,0) = 4*x*(1-x)
+
+	Explicit Method is only stable if l = D*(delt)/(delx)^2 is less than 1/2.
+	In the pdf, delt was taken to be 0.05, but then l = 0.05/(0.1)^2 = 5 > 1/2.
+	Therefore, the result diverged and was unstable. Hence I have used delt = 0.005.
+
+
+2) Implicit Method
+	x range = [-5,5]
+	t range = [0,10]
+	t steps = 200
+	delt	= 0.05
+	delx	= 0.1
+	D	= 1
+	Boundary condition: du/dx |(-5,t) = du/dx |(5,t) = 0  (Neumann)
+	Initial condition: u(x,0) = exp(-x^2)
+
+	Implicit method is unconditionally stable so we can use delt and delx of our 
+	choice. For the Neumann condition, i couldn't impose it exactly, so I did
+	an approximate boundary condition that slope (delta u/delta x) = 0 or simply
+	(delta u) at the boundaries = 0.
+	
+
+
+3) Crank-Nicolson Method
+	x range = [0,1]
+	t range = [0,0.75]
+	t steps = 15
+	delt	= 0.05
+	delx	= 0.1
+	D	= 1.44
+	Boundary condition: 	u(0,t) = 2
+				u(1,t) = 0.5 (Dirichlet)
+	Initial condition: 	u(x,0) = 2 - 0.5*x + sin(pi*x)
+
+	Crank-Nicolson method is unconditionally stable because it has incorporated
+	the implicit component. It is also more accurate because the error in time in
+	the other two methods is O(delt) but here it is O(delt^2).

@@ -1,0 +1,29 @@
+﻿COMMENTS ON THE RESULTS
+
+
+1)      The number of bound states will increase with increase in the depth as well
+        as the width of the potential. Increasing the depth will allow bound states
+        of higher energies whereas increasing the width will reduce the spacing 
+        between the energy levels, hence allowing more states within the existing well.
+
+
+2)      No matter how small the depth of the potential is, there will always be at 
+        least 1 bound state, the ground state. It is of even parity and has no nodes 
+        (i.e. it is not zero at any finite value of x).
+
+
+3)	The consecutive states alternate in parity and the number of nodes increases by 
+        1 for each level. The 1st excited state is of odd parity and has 1 node, the 
+        2nd excited state is even parity with 2 nodes and so on
+
+
+4)      The spacing between consecutive energy levels increases,that is, the levels are 
+        further and further spaced. We can expect this because if the well is infinite,
+        energy is proportional to n². Hence, if the ground state energy << well depth,
+        The energy levels will approximately go as n².
+
+
+5)	The number of bound states is proportional to the width a and the square root 
+	of the depth V0. The exact expression is given by (mass= 1, hbar=1):
+		n = ceil[2/π * √(2*V0) * a] 
+	where ceil() is the smallest integer greater than or equal to the number.

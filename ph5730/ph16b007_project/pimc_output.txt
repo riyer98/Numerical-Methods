@@ -1,0 +1,41 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======= RESTART: C:\Users\Rajgopalan Iyer\Downloads\Assignment_FINAL\Project\.ipynb_checkpoints\Project_FINAL-checkpoint.ipynb ======
+Traceback (most recent call last):
+  File "C:\Users\Rajgopalan Iyer\Downloads\Assignment_FINAL\Project\.ipynb_checkpoints\Project_FINAL-checkpoint.ipynb", line 428, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+>>> 
+================ RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_project\variational_code.py ================
+>>> pathint(2.35,0.001,1.35,100,1000)
+Ground state energy is  -29.82680418607538  eV
+>>> 
+================ RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_project\variational_code.py ================
+>>> pathint(2.35,0.001,1.35,100,1000)
+Ground state energy is  -28.200885998845855  eV
+>>>
+>>> pathint(6.3265,0.001,1.35,100,1000)
+Ground state energy is  -30.984416128313068  eV
+>>>
+>>> pathint(6.3265,0.001,1.35,100,5000)
+Ground state energy is  -28.800953020557525  eV
+>>>
+>>> pathint(1,0.001,1.4,100,1000)
+Ground state energy is  -29.95838778729738  eV
+>>>
+>>> pathint(1,0.001,1.4,1000,100)
+Ground state energy is  -31.77659865691249  eV
+>>>
+>>> pathint(6.3265,0.001,1.35,1000,100)
+Ground state energy is  -32.00312217468438  eV
+>>>
+>>> pathint(6.3265,0.001,1.35,1000,100)
+Ground state energy is  -32.000730499390656  eV
+>>>
+>>> pathint(2,0.001,1.35,1000,100)
+Ground state energy is  -30.687731613225996  eV
+>>>
+>>> pathint(2,0.001,1.4,1000,100)
+Ground state energy is  -30.88793731403111  eV
+>>> 

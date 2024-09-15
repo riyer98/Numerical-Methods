@@ -1,0 +1,30 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A5\A5_code.py
+>>>
+>>> varcomp(0,1,1000,1000)
+mean value of integral without w(x)=  0.7854994540208065
+standard deviation=  0.005110765818725677
+mean value of integral with w(x)=  0.7853963263505647
+standard deviation=  0.0007335804591322854
+>>>
+>>> varcomp(0,1,10000,1000)
+mean value of integral without w(x)=  0.7853565857726317
+standard deviation=  0.001562748332296108
+mean value of integral with w(x)=  0.7853961731463708
+standard deviation=  0.00022964440959583
+>>> 
+
+
+
+
+##COMMENTS
+
+I have executed the codes for Q5.1 and the result is displayed above.
+
+The actual value of the integral is pi/4 = 0.78540... The numerical result comes closer to the actual
+value as we increase the number of sample points.
+
+We can see that the weight function dramatically decreases the deviation in the computation and
+improves the accuracy. I have plotted a histogram comparing the deviations in both cases.

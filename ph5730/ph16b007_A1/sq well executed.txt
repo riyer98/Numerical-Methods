@@ -1,0 +1,8 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A1.py
+>>> sqwellenergies(10,5,10**-6,100)
+Even parity energies (in eV) are:  ['0.045', '0.407', '1.128', '2.208', '3.639', '5.413', '7.506', '9.798']
+Odd parity energies (in eV) are:  ['0.181', '0.723', '1.624', '2.880', '4.485', '6.422', '8.650']
+>>> 

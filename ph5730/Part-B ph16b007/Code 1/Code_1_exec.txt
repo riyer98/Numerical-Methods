@@ -1,0 +1,29 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:/Users/Rajgopalan Iyer/Desktop/iit downloads/ph5730/Part-B ph16b007/Code_1.py
+>>> 
+>>> Vbruteforce(0.5,10,20)
+Intervals in the range in which V(r)=0 are [[0.975, 1.45]]
+>>> 
+>>> Vrootbisect(0.975,1.45,10**-6)
+Value of  r for which V(r)=0 is r0 =  1.0000008106231688 sigma
+>>> 
+>>> Vrootbisect(0.5,1.5,10**-6)
+Value of  r for which V(r)=0 is r0 =  1.0 sigma
+>>> 
+>>> 
+>>> Fbruteforce(0.5,10,20)
+Intervals in the range in which F(r)=0 are [[0.975, 1.45]]
+>>> 
+>>> Frootbisect(.975,1.45,10**-6)
+Value of r for which F(r)=0 is r0= 1.122461748123169 sigma
+Min energy reqd to separate the atoms is -V(r0) =  0.999999999997425 epsilon
+>>> 
+>>> Frootbisect(.5,1.5,10**-6)
+Value of r for which F(r)=0 is r0= 1.122462272644043 sigma
+Min energy reqd to separate the atoms is -V(r0) =  0.9999999999985619 epsilon
+>>> 
+>>> 2**(1/6)
+1.122462048309373
+>>> 

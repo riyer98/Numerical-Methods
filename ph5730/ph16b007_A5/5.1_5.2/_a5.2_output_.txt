@@ -1,0 +1,25 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Rajgopalan Iyer\Desktop\iit downloads\ph5730\ph16b007_A5\A5_code.py
+>>> metro_intg(0,100000,0.25)
+Value of integral x exp(-x**2/2) from -inf to inf is  2.481957124949554
+>>> metro_intg(0,100000,0.5)
+Value of integral x exp(-x**2/2) from -inf to inf is  2.4389995072350565
+>>> metro_intg(0,100000,0.75)
+Value of integral x exp(-x**2/2) from -inf to inf is  2.2961620884005733
+>>> 
+
+
+
+##COMMENTS
+
+The codes for Q5.2 have been executed above.
+
+The actual value of the integral is sqrt(2*pi) = 2.5066. 
+We can see that the accuracy decreases with increasing step size.
+
+I have plotted the histogram of sample points for step size delta=0.25.
+
+I have also plotted the autocorrelation for the 3 different step sizes.
+We can see that C(k) decreases more rapidly as we increase the step size.
